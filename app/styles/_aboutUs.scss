@@ -1,0 +1,44 @@
+#AboutUs {
+  padding: 40px 0;
+  background: url("/assets/images/meat2.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: -50% bottom;
+
+  &.visible {
+    background-position: 0 bottom;
+  }
+
+  h4 {
+    margin-top: 40px;
+  }
+
+
+  .mision, .vision , .our-team {
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    border-radius: 4px;
+    background: rgba(244,244,244,0.70);
+
+
+    img {
+      display: block;
+      width: 50px;
+    }
+
+    h5 {
+      margin: 20px 0;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+
+  .vision {
+    margin: 0 1%;
+  }
+}

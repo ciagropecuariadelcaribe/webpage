@@ -1,0 +1,105 @@
+section#Exportations {
+  padding: 40px 0;
+  background: url("/assets/images/bg-ship.png");
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  section {
+    display: inline-block;
+    width: 49.8%;
+    vertical-align: top;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    h5 {
+      font-size: 25px;
+      font-family: 'Walter Turncoat', cursive;
+
+      i{
+        font-family: 'Walter Turncoat', cursive;
+        text-decoration: underline;
+        font-style: normal;
+      }
+    }
+
+    .description {
+      overflow: hidden;
+      p {
+        width: 70%;
+      }
+    }
+
+    .payment {
+      width: 100%;
+    }
+
+    .illustration {
+      padding: 20px 0;
+
+      img {
+        width: 150px;
+      }
+    }
+  }
+
+  .express {
+    text-align: right;
+
+    p, b, h5, i, li {color: white;}
+
+    .description {
+      p {
+        float: right;
+      }
+    }
+  }
+
+  .waves, .cloud, .clouds, .clouds2 {
+    position: absolute;
+  }
+
+  .waves {
+    bottom: 10px;
+    left: -40%;
+
+    &.visible {
+      left: 0;
+    }
+  }
+
+  .cloud {
+    bottom: 100px;
+    right: -30%;
+    width: 100px;
+
+    &.visible {
+      right: 30%;
+    }
+  }
+
+  .clouds {
+    top: 100px;
+    right: -30%;
+    width: 100px;
+
+    &.visible {
+      right: 30%;
+    }
+  }
+
+  .clouds2 {
+    top: 100px;
+    right: -50%;
+    width: 300px;
+
+    &.visible {
+      right: 0%;
+    }
+  }
+}

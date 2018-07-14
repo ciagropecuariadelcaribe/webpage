@@ -1,0 +1,39 @@
+* {
+  transition: all .50s;
+
+  color: #3a392b;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive !important;
+  color: #ff7105 !important;;
+  font-size: 30px;
+}
+
+
+h4 {
+  color: #ff7105 !important;
+  font-weight: 400;
+  margin-top: 60px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+
+div.line {
+  background-color: #ff7105;
+  height: 2px;
+  width: 70px;
+  margin: 20px 0 40px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  min-width: 1200px;
+}

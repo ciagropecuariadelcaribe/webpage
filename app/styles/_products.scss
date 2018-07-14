@@ -1,0 +1,119 @@
+#Products {
+  padding: 40px 0;
+  background: url("/assets/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  a {
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    img {
+      width: 18px;
+      margin-right: 10px;
+    }
+  }
+
+
+  h4 {
+    margin-top: 40px;
+    color: white !important;
+    text-align: center;
+  }
+
+  span.line {
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 70px;
+    margin: 20px auto 40px;
+  }
+
+  .description {
+    margin: 20px auto 40px;
+    width: 80%;
+    text-align: center;
+  }
+
+  *{color: white;}
+
+  .container > div {
+    display: inline-block;
+    position: relative;
+    width: 49.8%;
+    height: 400px;
+    padding: 50px 20px;
+    vertical-align: top;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    background-size: 100%;
+    background-position: center center;
+    transition: all 1s;
+
+    &:hover {
+      background-size: 120%;
+      background-position: center center;
+    }
+
+    & > div {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+
+      p{
+        font-size: 15px;
+      }
+    }
+
+    h5 {
+      margin: 10px 0 40px;
+      font-size: 25px;
+      font-family: 'Walter Turncoat', cursive;
+    }
+
+    ul {
+      list-style: none;
+       li {
+         font-weight: 400;
+       }
+    }
+  }
+
+  .beef {
+    background: url("/assets/images/meat.png");
+  }
+
+  .cattle {
+    background: url("/assets/images/cattle.png");
+  }
+
+  .burger {
+    background: url("/assets/images/burger.png");
+  }
+
+  .fruits {
+    background: url("/assets/images/fruits.png");
+  }
+
+  .pulp {
+    background: url("/assets/images/pulp.png");
+  }
+
+  .dehydrated-fruits {
+    background: url("/assets/images/dehydrated.png");
+  }
+
+}
