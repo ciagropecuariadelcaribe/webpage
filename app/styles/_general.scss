@@ -32,8 +32,199 @@ div.line {
 
 body {
   overflow-x: hidden;
+  min-width: 430px;
 }
 
-.container {
-  min-width: 1200px;
+#Footer {
+  background-color: #717163;
+  padding: 20px 0;
+
+  span {
+    color: white;
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .container {
+    min-width: 90%;
+  }
+
+  #HeaderSection .float-meat {
+    width: 668px;
+    margin-right: -191px;
+  }
+
+  #Contact .container .card  {
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 1140px) {
+  section#Exportations .waves.visible {
+      left: -2%;
+  }
+}
+
+@media all and (max-width: 1090px) {
+  section#Exportations .waves.visible {
+      left: -10%;
+  }
+}
+
+@media all and (max-width: 1010px) {
+  section#Exportations .waves.visible {
+      left: -15%;
+  }
+}
+
+@media all and (max-width:991px) {
+  .container {
+    min-width: 95%;
+  }
+
+  #HeaderSection .navbar .navbar-brand {
+    margin-right: 20px;
+  }
+
+  section#Exportations section .description p {
+    width: 90%;
+  }
+}
+
+@media all and (max-width:960px) {
+  .container {
+    min-width: 99%;
+  }
+
+  #Products .container > div .content h5 {
+    font-size: 23px;
+    margin: 10px 0px 20px;
+  }
+}
+
+@media all and (max-width: 932px) {
+  section#Exportations {
+    background: none;
+
+    section {
+      display: block;
+      width: 100%;
+      padding: 40px;
+      border-radius: 4px;
+      box-shadow: 0px 2px 13px #00000042;
+
+      &.express {
+        margin-top: 10px;
+        background-color: #EA9100;
+      }
+    }
+
+    .waves.visible {
+      top: 300px;
+      left: 10%;
+    }
+
+    .clouds2.visible {
+      top: 60%;
+      right: 60%;
+    }
+
+    .clouds.visible {
+      display: none;
+    }
+
+    .cloud.visible {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width:557px) {
+  section#Exportations {
+    .waves.visible{
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width:880px) {
+  #AboutUs .mision, #AboutUs .vision, #AboutUs .our-team {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgba(244, 244, 244, 0.7);
+  }
+
+  #AboutUs .vision {
+    margin: 20px 0;
+  }
+
+  #Contact .container {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  #Contact .container .card {
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    padding: 40px;
+    height: auto;
+
+    p{
+      width: 49%;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+}
+
+@media all and (max-width:800px) {
+  #Products .container > div {
+    display: block;
+    width: 80%;
+    padding: 30px 20px;
+    margin: 5px auto;
+  }
+}
+
+@media all and (max-width:730px) {
+  #HeaderSection .banner-content {
+    width: 90%;
+    margin-top: 30px;
+    background-color: #ffffffab;
+    padding: 20px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 690px) {
+  #HeaderSection .float-meat {
+    width: 550px;
+    margin-right: -171px;
+  }
+}
+
+@media all and (max-width:610px) {
+  #Contact .container .card {
+    p {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+@media all and (max-width:525px) {
+  #Products .container > div {
+    background-size: cover;
+
+    &:hover {
+      background-size: cover;
+    }
+  }
 }
