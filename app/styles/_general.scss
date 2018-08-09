@@ -32,7 +32,7 @@ div.line {
 
 body {
   overflow-x: hidden;
-  min-width: 430px;
+  min-width: 320px;
 }
 
 #Footer {
@@ -227,4 +227,47 @@ body {
       background-size: cover;
     }
   }
+}
+
+@media all and (max-width:488px) {
+  #Products .container > div > div {
+    width: 100%;
+  }
+
+  #HeaderSection {
+    height: auto;
+
+    .float-meat {
+      display: none;
+    }
+
+    .banner-content {
+      width: 100%;
+      background-color: #fff0;
+    }
+  }
+
+  #AboutUs h4 {
+    margin-top: 10px;
+  }
+
+}
+
+@media all and (max-width:400px) {
+  #HeaderSection {
+    h1 {
+      line-height: 44px;
+      font-size: 28px;
+    }
+  }
+
+  #Products .container > div {
+    width: 100%;
+
+    .content h5 {
+      font-size: 20px;
+      margin: 10px 0px 10px;
+    }
+  }
+
 }
