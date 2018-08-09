@@ -217,6 +217,10 @@ body {
       display: block;
     }
   }
+
+  section#Exportations .waves {
+    display: none;
+  }
 }
 
 @media all and (max-width:525px) {
@@ -230,6 +234,10 @@ body {
 }
 
 @media all and (max-width:488px) {
+  section#Exportations section {
+    padding: 20px;
+  }
+
   #Products .container > div > div {
     width: 100%;
   }
